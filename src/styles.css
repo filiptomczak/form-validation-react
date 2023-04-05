@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Card {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+label {
+  margin: 10px;
+  display: block;
+}
+input {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  width: 95%;
+  box-sizing: border-box;
+}
+.invalid {
+  border-color: red;
+}
+button {
+  margin: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 20%;
+  border: 1px solid #008db1;
+  background-color: #008db1;
+  color: #d0ff00;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid #d0ff00;
+  background-color: #d0ff00;
+  color: #008db1;
+}
+button:disabled {
+  color: #3f3f3f;
+  background-color: #ccc;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+.btn {
+  text-align: right;
+}
+p {
+  margin: 10px;
+  padding: 5px;
+}
